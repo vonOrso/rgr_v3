@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingTop="1dp"
+    tools:context="Fragment_Days">
+
+    <View
+        android:id="@+id/zaglyshka_2_1"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="1.5dp"/>
+    <!-- Первая пара -->
+
+    <TextView
+
+        android:id="@+id/text_vt_time_1"
+        android:layout_width="@dimen/shir_time"
+        android:layout_height="@dimen/visota_time"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/vos_dev"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:background="@drawable/borders"
+        android:layout_below="@id/zaglyshka_2_1"/>
+
+    <TextView
+
+        android:id="@+id/text_vt_chis_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/visota_zanyat"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/Heil"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:background="@drawable/borders"
+        android:layout_below="@id/zaglyshka_2_1"
+        android:layout_toRightOf="@id/text_vt_time_1" />
+
+    <TextView
+
+        android:id="@+id/text_vt_znam_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/visota_zanyat"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/Heil"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:background="@drawable/borders_gray"
+        android:layout_below="@id/text_vt_chis_1"
+        android:layout_toRightOf="@id/text_vt_time_1"/>
+
+
+    <View
+        android:id="@+id/zaglyshka_2_2"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="1dp"
+        android:layout_below="@id/text_vt_znam_1"/>
+
+    <!-- Вторая пара -->
+
+    <TextView
+
+        android:id="@+id/text_vt_time_2"
+        android:layout_width="@dimen/shir_time"
+        android:layout_height="@dimen/visota_time"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/dev_odin"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_below="@id/zaglyshka_2_2"
+        android:background="@drawable/borders" />
+
+
+    <TextView
+
+        android:id="@+id/text_vt_chis_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/visota_zanyat"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/Heil"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:background="@drawable/borders"
+        android:layout_below="@id/zaglyshka_2_2"
+        android:layout_toRightOf="@id/text_vt_time_2" />
+
+    <TextView
+
+        android:id="@+id/text_vt_znam_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/visota_zanyat"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/Heil"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:background="@drawable/borders_gray"
+        android:layout_below="@id/text_vt_chis_2"
+        android:layout_toRightOf="@id/text_vt_time_2" />
+
+    <View
+        android:id="@+id/zaglyshka_2_3"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="1dp"
+        android:layout_below="@id/text_vt_znam_2"/>
+
+    <!-- Третья пара -->
+
+    <TextView
+
+        android:id="@+id/text_vt_time_3"
+        android:layout_width="@dimen/shir_time"
+        android:layout_height="@dimen/visota_time"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/odin_trin"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_below="@id/zaglyshka_2_3"
+        android:background="@drawable/borders" />
+
+    <TextView
+
+        android:id="@+id/text_vt_chis_3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/visota_zanyat"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/Heil"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:background="@drawable/borders"
+        android:layout_below="@id/zaglyshka_2_3"
+        android:layout_toRightOf="@id/text_vt_time_3" />
+
+    <TextView
+
+        android:id="@+id/text_vt_znam_3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/visota_zanyat"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/Heil"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:background="@drawable/borders_gray"
+        android:layout_below="@id/text_vt_chis_3"
+        android:layout_toRightOf="@id/text_vt_time_3" />
+
+    <View
+        android:id="@+id/zaglyshka_2_4"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="1dp"
+        android:layout_below="@id/text_vt_znam_3"/>
+
+    <!-- Четвертая пара -->
+
+    <TextView
+
+        android:id="@+id/text_vt_time_4"
+        android:layout_width="@dimen/shir_time"
+        android:layout_height="@dimen/visota_time"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/trin_pyat"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_below="@id/zaglyshka_2_4"
+        android:background="@drawable/borders" />
+
+    <TextView
+
+        android:id="@+id/text_vt_chis_4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/visota_zanyat"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/Heil"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:background="@drawable/borders"
+        android:layout_below="@id/zaglyshka_2_4"
+        android:layout_toRightOf="@id/text_vt_time_4" />
+
+    <TextView
+
+        android:id="@+id/text_vt_znam_4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/visota_zanyat"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/Heil"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:background="@drawable/borders_gray"
+        android:layout_below="@id/text_vt_chis_4"
+        android:layout_toRightOf="@id/text_vt_time_4" />
+
+    <View
+        android:id="@+id/zaglyshka_2_5"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="1dp"
+        android:layout_below="@id/text_vt_znam_4"/>
+
+    <!-- Заметки -->
+
+    <EditText
+
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:gravity="start"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_below="@id/zaglyshka_2_5"
+        android:inputType="textNoSuggestions"
+        android:hint="@string/Heil"
+        android:imeOptions="actionSend"
+        android:background="@drawable/borders" />
+
+
+</RelativeLayout>

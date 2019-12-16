@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">☠ Расписание ☠</string>
+
+    <!-- Строки с часиками -->
+    <string name="vos_dev">08:00 – 09:35</string>
+    <string name="dev_odin">09:50 – 11:25</string>
+    <string name="odin_trin">11:55 – 13:30</string>
+    <string name="trin_pyat">13:45 – 15:20</string>
+    <string name="Heil">Heil</string>
+
+</resources>

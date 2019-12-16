@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Размер 510 -->
+
+    <!-- Размеры окон с временем -->
+    <dimen name="visota_time">110dp</dimen>
+    <dimen name="shir_time">50dp</dimen>
+
+    <!-- Размер окон с расписанием -->
+    <dimen name="visota_zanyat">55dp</dimen>
+
+
+
+
+
+</resources>
